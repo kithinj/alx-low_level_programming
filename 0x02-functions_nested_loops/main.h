@@ -1,3 +1,9 @@
+#ifndef MAIN_H
+#define MAIN_H
+/**
+ * file = main h
+ * description: this header file is containg declaration of functions
+ */
 int _putchar(char);
 	void print_alphabet(void);
 	void print_alphabet_x10(void);
@@ -11,4 +17,4 @@ int _putchar(char);
 	int add(int, int);
 	void print_to_98(int n);
 	void print_times_table(int n);
-
+#endif

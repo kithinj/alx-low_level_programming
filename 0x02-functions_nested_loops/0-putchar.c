@@ -1,23 +1,18 @@
 #include "main.h"
+/**
+* main - will print _putchar, followed by new line
+* Return: 0 (Success), 1 (failure)
+*/
+int main(void)
+{
+char festus[] = "_putchar";
 
-	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
+int c;
 
-
-	int main(void)
-	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
-	}
-
+for (c = 0; c < 8; c++)
+{
+_putchar(festus[c]);
+}
+_putchar('\n');
+return (0);
+}
