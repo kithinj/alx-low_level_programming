@@ -1,15 +1,12 @@
 #include "main.h"
+
 /**
- * add - adds two integers and returns the result
- *
- * @x: integers  being added
- *
- * @y: integers being added
+ * main - check the code.
  *
  * Return: Always 0.
- *
  */
-int add(int x, int y)
+int main(void)
 {
-	return (x + y);
+    print_alphabet_x10();
+    return (0);
 }

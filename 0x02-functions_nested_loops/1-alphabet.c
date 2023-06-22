@@ -3,17 +3,15 @@
 /**
  * print_alphabet - print all alphabet in lowercase.
  *
- * Return: Always 0
+ * Return: void
  */
 
 void print_alphabet(void)
 {
-	char alpha = 'a';
-
-	while (alpha <= 'z')
+	char c;
+	for(c= 'a' c<= 'z'; c++)
 	{
-		_putchar (alpha);
-		alpha++;
+		_putchar (c);
 	}
 	_putchar ('\n');
-}
+
